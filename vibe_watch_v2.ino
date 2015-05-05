@@ -33,7 +33,7 @@ void setup()
 {
     //Initialize serial communication to send the distance value  to the serial monitor
     Serial.begin(9600);
-        pinMode(6, OUTPUT);
+        pinMode(M1, OUTPUT);
 
 }
 
@@ -48,12 +48,12 @@ void loop()
   
    if (distance_cm < 40) 
        {
-          lt_100();
+          lt_a();
        } 
        
        else if(distance_cm < 100) 
        {
-          lt_200(); 
+          lt_b(); 
        } 
 
        else; // if there's nothing in front of us
@@ -64,14 +64,14 @@ void loop()
 
 
 
-void lt_100() {
+void lt_a() {
   digitalWrite(M1,HIGH);
   delay(70);
   digitalWrite(M1,LOW);
   delay(35);
 }
 
-void lt_200() {
+void lt_b() {
   digitalWrite(M1,HIGH);
   delay(70);
   digitalWrite(M1,LOW);
