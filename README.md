@@ -19,4 +19,4 @@ Parts of the code you may wish to change:
 
 (You may only wish to have one pulse type - if this is the case, set the delays for lt_a & lt_b to be exactly the same. This will allow you to more cleanly revert to 2 different pulses at a later date if required.)
 
-This device is being field tested in Jordan - please feel free to msg with any potential improvements.
+This device is being field tested in Jordan - please feel free to email info@row3d.org with any potential improvements.
